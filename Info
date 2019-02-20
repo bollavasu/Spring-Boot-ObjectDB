@@ -1,0 +1,25 @@
+
+https://www.developer.com/java/data/using-objectdb-in-java-projects.html
+
+1)ObjectDB download : download ObjectDB 2.7.6 from https://www.objectdb.com/download
+                    Extract it
+					
+2)ObjectDB start : go to C:\objectdb-2.7.6\bin
+                 java -cp objectdb.jar com.objectdb.Server start
+				 
+3)Running the Explorer : go to C:\objectdb-2.7.6\bin				 
+				       java -jar explorer.jar
+					   ObjectDB Explorer will be opened
+					   
+4)mvn clean install
+
+5)mvn spring-boot:run
+
+6)go to http://localhost:8080/
+					   
+7)address-book.odb will be generated in C:\Users\Srinivas_Bolla\.m2\db
+
+8)to see the data : ObjectDB Explorer -> File -> Recent Connections -> select address-book.odb
+                  right click on AddressBook -> Open Table Window
+				  
+9)to execute the queries : ObjectDB Explorer -> select the query tab at the bottom -> write query -> Click on Execute
